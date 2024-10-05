@@ -1,0 +1,21 @@
+CREATE TABLE users (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      username TEXT,
+      password TEXT,
+      firstname TEXT,
+      lastname TEXT,
+      email TEXT
+       );
+
+updated code for extra credits
+
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL,
+    firstname TEXT NOT NULL,
+    lastname TEXT NOT NULL,
+    email TEXT NOT NULL,
+    word_count INTEGER,
+    file_name TEXT
+);
